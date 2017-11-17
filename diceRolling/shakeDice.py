@@ -9,6 +9,7 @@ print("\n")
 print(" ")
 
 import random
+import graphic
 
 
 def start_rolling():
@@ -21,7 +22,7 @@ def start_rolling():
 
 def ran_generate():
     select = random.randint(0,5)
-    print("Here is :" + select)
+    print("Here is :" + str(select))
 
 
 start_rolling()
